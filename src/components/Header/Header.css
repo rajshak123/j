@@ -1,0 +1,31 @@
+
+ .header {
+  display: grid; 
+  grid-area: header;
+  background: linear-gradient(to right, #2D2D4C 50%, transparent 100%);
+  grid-template-rows: 0.3fr 0.7fr 0.7fr;
+  grid-template-columns: repeat(8,1fr); 
+}
+.input{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3
+}
+
+.images{
+  justify-self: center;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: 20px;
+  width: 20px;
+}
+
+
+.dropdownContent{
+  background-color: white;
+  align-items: center;
+  margin: 10px;
+}

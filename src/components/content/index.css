@@ -1,0 +1,20 @@
+.content{
+  /* background-image: url('https://shssharkattack.com/wp-content/uploads/2017/10/digital-music-thinkstock-100637615-large.jpg'); */
+  grid-area: content ;
+  opacity: 0.5;
+  z-index: 2;
+  background-color:rgba(11, 31, 5, 0.856);
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-flow: dense; 
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));  
+}
+
+@media screen and (max-width: 768px){
+.content{
+    grid-gap: 5px;
+    background-color:black;
+    
+    
+  }
+}

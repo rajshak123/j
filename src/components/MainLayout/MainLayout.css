@@ -1,0 +1,59 @@
+.App{
+  background-color: #948f6f;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); 
+  /* background-color: aqua; */
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+  grid-template-rows: 0.00000001fr 1fr 0.00000001fr;
+  grid-template-areas:
+              "header header   header"
+              "content     content    content"
+              "footer footer footer"
+  
+}
+
+.font{
+  font-size: 100px;
+  background-color: aqua
+}
+.font1{
+  font-size: 20px
+}
+
+/* @media screen and (max-width: 1058px){
+  .App{
+
+    background-color:black;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); 
+    background-color: aqua; 
+    display: grid;
+    grid-gap: 7px;
+    grid-template-rows: 80px 200px 4fr 0.2fr;
+    grid-template-areas:
+                "header header   header"
+                "imageSlider  imageSlider   imageSlider"
+                "content     content    content"
+                "footer footer footer"
+    
+  } 
+} 
+
+@media screen and (max-width: 768px){
+  .App{
+
+    background-color:black;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); 
+    background-color: aqua; 
+    display: grid;
+    grid-gap: 7px;
+    grid-template-rows: 80px 200px 4fr 0.1fr;
+    grid-template-areas:
+                "header header   header"
+                "imageSlider  imageSlider   imageSlider"
+                "content     content    content"
+                "footer footer footer"
+    
+  }
+} */
+
